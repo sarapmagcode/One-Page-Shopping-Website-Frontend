@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- External CSS -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <title>MerchOnline.PH - Browse personalized designs</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-center">
+                <!-- Upper -->
+                <div class="upper">
+                    <div class="upper-left">
+                        <ul>
+                            <li><a href="#buyingcentre">Buying Centre</a></li>
+                            <span>|</span>
+
+                            <li><a href="#startbuying">Start Buying</a></li>
+                            <span>|</span>
+                            
+                            <li><a href="#download">Download</a></li>
+                            <span>|</span>
+
+                            <li><a href="#follow">Follow us on</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="upper-right">
+                        <ul>
+                            <i class="bi bi-bell"></i>
+                            <li><a href="#notifs">Notifications</a></li>
+
+                            <i class="bi bi-question-circle"></i>
+                            <li><a href="#help">Help</a></li>
+                            
+                            <i class="bi bi-globe"></i>
+                            <li><a href="#lang">English</a></li>
+
+                            &nbsp;
+                            <li><a class="auth" href="#signup">Sign Up</a></li>
+                            <span>|</span>
+
+                            <li><a class="auth" href="#login">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Lower -->
+                <div class="lower">
+                    <div>
+                        <h2><a href="index.html">MerchOnline.PH</a></h3>
+                    </div>
+
+                    <div>
+                        <form method="post">
+                            <input type="text" name="search" placeholder="Sign up and get 100% off on your first order">
+                            <button type="submit"><i class="bi bi-search"></i></button>
+                        </form>
+                    </div>
+
+                    <div>
+                        <i class="bi bi-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <div class="main">
+            <!-- Side bar -->
+            <div class="side-bar">
+                <h4><i class="bi bi-funnel"></i>&nbsp;Search Filter</h4>
+
+                <!-- Categories -->
+                <p>By Category</p>
+                <form method="post">
+                    <input id="c1" type="radio" name="category">
+                    <label for="c1">Personalized T-Shirt</label><br>
+                    <input id="c2" type="radio" name="category">
+                    <label for="c2">Women's Apparel</label><br>
+                    <input id="c3" type="radio" name="category">
+                    <label for="c3">Dress & Casual Shirt</label><br>
+                    <input id="c4" type="radio" name="category">
+                    <label for="c4">Hoodies & Sweatshirts</label><br>
+                    <input id="c5" type="radio" name="category">
+                    <label for="c5">Babies & Kids</label><br>
+                    <input id="c6" type="radio" name="category">
+                    <label for="c6">Traditional Wear</label>
+                </form>
+
+                <!-- Price Range -->
+                <p>Price Range</p>
+                <form method="post">
+                    <input type="number" placeholder="MIN">
+                    <input type="number" placeholder="MAX">
+                    <button id="filter-btn" type="submit">Apply</button>
+                </form>
+
+                <!-- Shipped From -->
+                <p>Shipped From</p>
+                <form method="post">
+                    <input id="sf1" type="radio" name="ship-from">
+                    <label for="sf1">South Luzon</label><br>
+                    <input id="sf2" type="radio" name="ship-from">
+                    <label for="sf2">North Luzon</label><br>
+                    <input id="sf3" type="radio" name="ship-from">
+                    <label for="sf3">Metro Manila</label><br>
+                    <input id="sf4" type="radio" name="ship-from">
+                    <label for="sf4">Visayas</label><br>
+                    <input id="sf5" type="radio" name="ship-from">
+                    <label for="sf5">Mindanao</label><br>
+                </form>
+
+                <!-- Shop Type -->
+                <p>Shop Type</p>
+                <form method="post">
+                    <input id="st1" type="radio" name="shop-type">
+                    <label for="st1">Free Shipping Special</label><br>
+                    <input id="st2" type="radio" name="shop-type">
+                    <label for="st2">Mega Discount Vouchers</label><br>
+                    <input id="st3" type="radio" name="shop-type">
+                    <label for="st3">Preferred Sellers</label><br>
+                </form>
+
+                <!-- Clear Filters -->
+                <form method="post">
+                    <button id="filter-btn" type="submit">Clear All</button>
+                </form>
+            </div>
+
+            <!-- Center -->
+            <div class="center">
+                <!-- <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.-hwoY71d2LX8i1SWkeaQngHaHa?rs=1&pid=ImgDetMain" alt="sample">
+                    <div class="card-body">
+                        <p id="product-name">Youth Culture Anime Heroes white tops shirt Mens women t shirt trendy japanese tees</p>
+
+                        <h4>Php 268</h4>
+
+                        <p>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill checked"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span id="sold">1.4K sold</span>
+                        </p>
+
+                        <p id="location">Valenzuela City, Metro Manila</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#help-centre">Help Centre</a></li>
+                        <li><a href="#payment-methods">Payment Methods</a></li>
+                        <li><a href="#order-tracking">Order Tracking</a></li>
+                        <li><a href="#free-shipping">Free Shipping</a></li>
+                        <li><a href="#return">Return & Refund</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#career">Careers</a></li>
+                        <li><a href="#policies">Policies</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#mall">Mall</a></li>
+                        <li><a href="#flash-deals">Flash Deals</a></li>
+                        <li><a href="#media">Media Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Payment</h4>
+                    <img src="https://logosmarcas.net/wp-content/uploads/2020/09/Mastercard-Logo.png" alt="payment"><br>
+                    <img src="https://moneygment.ph/wp-content/uploads/2020/09/dragonpay-logo.png" alt="payment"><br>
+                    <img src="https://th.bing.com/th/id/OIP.DpA6C2KErSl-kVZU6T6-bAAAAA?w=326&h=172&rs=1&pid=ImgDetMain" alt="payment">
+                </div>
+
+                <div>
+                    <h4>Logistics</h4>
+                    <img src="https://1000logos.net/wp-content/uploads/2023/06/2GO-Logo-1536x864.png" alt="logistics"><br>
+                    <img src="https://flashexpress.biz/imgs/logo.png" alt="logistics"><br>
+                    <img src="https://cf.shopee.sg/file/5c42d91c480329c763370f48fc59489c" alt="logistics">
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

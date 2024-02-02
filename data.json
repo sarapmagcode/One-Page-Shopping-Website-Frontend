@@ -1,0 +1,26 @@
+[
+    {
+        "imageUrl": "https://ph-live-01.slatic.net/p/aa0f67fbd74bb995aa022b33efeda858.jpg",
+        "productName": "Graphic Print over size T-Shirt For Men's cotton round neck tee top M-XL",
+        "price": 268,
+        "rating": 3,
+        "sold": 1560,
+        "location": "Manila"
+    },
+    {
+        "imageUrl": "https://th.bing.com/th/id/OIP.hosIOB-LLvbm_UtuwFiOKgHaHa?rs=1&pid=ImgDetMain",
+        "productName": "Random 2",
+        "price": 196,
+        "rating": 5,
+        "sold": 456,
+        "location": "Manila"
+    },
+    {
+        "imageUrl": "https://th.bing.com/th/id/OIP.0Wscsvf9w9_97pyGVFU11gHaHa?rs=1&pid=ImgDetMain",
+        "productName": "Random 3",
+        "price": 489,
+        "rating": 4,
+        "sold": 348,
+        "location": "Manila"
+    }
+]
